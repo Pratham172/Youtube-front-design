@@ -1,16 +1,21 @@
+@media only screen and (max-width:600px){
+    html{
+        font-size: 62.5%;
+    }
+    }
 .sidebar{
     position:fixed;
     left:0;
     bottom:0;
-    top:55px;
-    width: 72px;
+    top:3.4375rem;
+    width: 4.5rem;
     background-color:white;
     z-index: 200;
-    padding-top: 5px;
+    padding-top: 0.3125rem;
     
 }
 .sidebar-link{
-    height: 74px;
+    height: 4.625rem;
     display: flex;
     align-items:center; 
     justify-content:center;
@@ -22,10 +27,10 @@
    
 }
 .sidebar-link img{
-    height: 24px;
-    margin-bottom:4px;
+    height:1.5rem;
+    margin-bottom:0.25rem;
 }
 .sidebar-link div{
     font-family: Roboto,Arial;
-    font-size:10px;
+    font-size:0.625rem;
 }
